@@ -1488,7 +1488,7 @@ dependencies = [
 [[package]]
 name = "cosmian_kmip"
 version = "4.19.3"
-source = "git+https://github.com/Cosmian/kms.git#57cbde292886d5e54e59792a5dc7fdbda835c2cf"
+source = "git+https://github.com/Cosmian/kms.git?branch=chore/reuse_ckms_in_cosmian_cli#2745ddc50114f4645651f89327599e00e800e1a3"
 dependencies = [
  "aes-gcm-siv",
  "argon2",
@@ -1517,7 +1517,7 @@ dependencies = [
 [[package]]
 name = "cosmian_kms_cli"
 version = "4.19.3"
-source = "git+https://github.com/Cosmian/kms.git#57cbde292886d5e54e59792a5dc7fdbda835c2cf"
+source = "git+https://github.com/Cosmian/kms.git?branch=chore/reuse_ckms_in_cosmian_cli#2745ddc50114f4645651f89327599e00e800e1a3"
 dependencies = [
  "actix-web",
  "base64 0.21.7",
@@ -1547,7 +1547,7 @@ dependencies = [
 [[package]]
 name = "cosmian_kms_client"
 version = "4.19.3"
-source = "git+https://github.com/Cosmian/kms.git#57cbde292886d5e54e59792a5dc7fdbda835c2cf"
+source = "git+https://github.com/Cosmian/kms.git?branch=chore/reuse_ckms_in_cosmian_cli#2745ddc50114f4645651f89327599e00e800e1a3"
 dependencies = [
  "base64 0.21.7",
  "cloudproof",
@@ -1570,7 +1570,7 @@ dependencies = [
 [[package]]
 name = "cosmian_logger"
 version = "4.19.3"
-source = "git+https://github.com/Cosmian/kms.git#57cbde292886d5e54e59792a5dc7fdbda835c2cf"
+source = "git+https://github.com/Cosmian/kms.git?branch=chore/reuse_ckms_in_cosmian_cli#2745ddc50114f4645651f89327599e00e800e1a3"
 dependencies = [
  "tracing",
  "tracing-subscriber",

@@ -10,9 +10,12 @@ fips = ["cosmian_kms_client/fips"]
 [dependencies]
 clap = "4.4"
 cosmian_crypto_core = { version = "9.3", features = ["certificate"] }
-cosmian_kms_cli = { git = "https://github.com/Cosmian/kms.git", package = "cosmian_kms_cli" }
-cosmian_kms_client = { git = "https://github.com/Cosmian/kms.git", package = "cosmian_kms_client" }
-cosmian_logger = { git = "https://github.com/Cosmian/kms.git", package = "cosmian_logger" }
+# cosmian_kms_cli = { git = "https://github.com/Cosmian/kms.git", tags = "4.19.3" }
+# cosmian_kms_client = { git = "https://github.com/Cosmian/kms.git", tags = "4.19.3" }
+# cosmian_logger = { git = "https://github.com/Cosmian/kms.git", tags = "4.19.3" }
+cosmian_kms_cli = { git = "https://github.com/Cosmian/kms.git", branch =  "chore/reuse_ckms_in_cosmian_cli" }
+cosmian_kms_client = { git = "https://github.com/Cosmian/kms.git", branch =  "chore/reuse_ckms_in_cosmian_cli" }
+cosmian_logger = { git = "https://github.com/Cosmian/kms.git", branch =  "chore/reuse_ckms_in_cosmian_cli" }
 klask = { git = "https://github.com/Cosmian/klask.git" }
 tokio = { version = "1.34", features = ["full"] }
 env_logger = "0.11"
